@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "rimraf dist && webpack --watch --devtool=inline-source-map --mode=development",
     "build": "rimraf public && webpack --mode=production",
